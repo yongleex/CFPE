@@ -13,7 +13,7 @@ Compared to the only high-order baseline (LLS), our CFPE method only needs **~5 
 
 As a special curve fitting problem, our CFPE utilizes more data points (cross-frequency images) to solve a high-order harmonic model. That says, $\theta^* =\arg\min \Sigma_i\Sigma_j (I_{i,j}-h_{i,j})^2 $. 
 
-Our CFPE reports an efficient iterative solution to this problem $\phi_1^{new}=update(\phi_1^{old})$. More info is referred to the paper.
+Our CFPE reports an efficient iterative solution to this problem $\phi_1^{new}=update(\phi_1^{old})$, and each iteration is computed with closed-form solution. More info is referred to the paper.
 
 
 ## Install dependencies
