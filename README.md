@@ -1,17 +1,15 @@
 # Cross-frequency Phase Extraction (CFPE) 
 
 
-[![preprint](https://img.shields.io/static/v1?label=Journal&message=Submitted OLEN&color=B31B1B)](https://www.journals.elsevier.com/optics-and-lasers-in-engineering)
+[![preprint](https://img.shields.io/static/v1?label=Journal&message=Submitted_OLEN&color=B31B1B)](https://www.journals.elsevier.com/optics-and-lasers-in-engineering)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 This repository contains code for the submitted paper *[A fast cross-frequency phase extraction for phase shifting profilometry](https://doi.org/)*. 
 In this work, we formulate the phase extraction problem with high-order harmonic as a maximum likelihood estimation (MLE), and our CFPE is an efficient optimization method by introducing a latent phase map and incorporating the expectation-maximization (EM) framework.
-Compared to the only high-order baseline (LLS), our CFPE method only needs ~5% execution time to achieve high-order accuracy.
-
-
+Compared to the only high-order baseline (LLS), our CFPE method only needs **~5 percent execution time ** to achieve high-order accuracy.
 ### Motivation 
-![movie](Fig2.png)
+![movie](https://github.com/yongleex/CFPE/blob/main/data/Fig2.png)
 
 As a special curve fitting problem, our CFPE utilizes more data points (cross-frequency images) to solve a high-order harmonic model. That says, $\theta^* =\arg\min \Sigma_i\Sigma_j (I_{i,j}-h_{i,j})^2$. Our CFPE reports an efficient iterative solution to this problem $\phi_1^{new}=update(\phi_1^{old}$. More info is referred to the paper.
 
@@ -24,9 +22,8 @@ conda install -c anaconda pathlib
 
 
 ## The experiments
-* [Exp1.ipynb](https://github.com/yongleex/DiffeomorphicPIV/blob/main/Exp1.ipynb): Investigate the converge performance w.r.t the iteration number
-* [Exp1.ipynb](https://github.com/yongleex/DiffeomorphicPIV/blob/main/Exp2.ipynb): Test on several synthetic PSP images;
-* [Exp2.ipynb](https://github.com/yongleex/DiffeomorphicPIV/blob/main/Exp3.ipynb): Test on 4 real PSP cases;
+* [Exp1.ipynb](https://github.com/yongleex/CFPE/blob/main/Exp1_synthesis.ipynb): Test on several synthetic PSP images;
+* [Exp2.ipynb](https://github.com/yongleex/CFPE/blob/main/Exp2_real.ipynb): Test on 4 real PSP cases;
 
 
 ### BibTeX
