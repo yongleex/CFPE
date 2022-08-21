@@ -33,7 +33,7 @@ conda install -c anaconda pathlib
 ```
 @article{lee2022cfpe,
   author={Lee, Yong and Mao, Ya and Chen, Zuobing},  
-  journal={Submitted to Optics and Lasers in Engineering},  
+  journal={Submitted to Optics Express},  
   title={A fast cross-frequency phase extraction for phase shifting profilometry},  
   year={2022},
   volume={},
