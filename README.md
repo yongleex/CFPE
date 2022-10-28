@@ -1,13 +1,13 @@
-# Cross-frequency Phase Extraction (CFPE) 
+# Combined-frequency Phase Extraction (CFPE) 
 
 
-[![preprint](https://img.shields.io/static/v1?label=Journal&message=Submitted_OLEN&color=B31B1B)](https://www.journals.elsevier.com/optics-and-lasers-in-engineering)
+[![preprint](https://img.shields.io/static/v1?label=Journal&message=Submitted_OE&color=B31B1B)](https://opg.optica.org/oe/home.cfm)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-This repository contains code for the submitted paper *[A fast cross-frequency phase extraction for phase shifting profilometry](https://doi.org/)*. 
+This repository contains code for the submitted paper *[A fast combined-frequency phase extraction for phase shifting profilometry](https://doi.org/)*. 
 In this work, we formulate the phase extraction problem with high-order harmonic as a maximum likelihood estimation (MLE), and our CFPE is an efficient optimization method by introducing a latent phase map and incorporating the expectation-maximization (EM) framework.
-Compared to the only high-order baseline (LLS), our CFPE method only needs **~5 percent execution time ** to achieve high-order accuracy.
+Compared to the only high-order baseline (LLS), our CFPE method only needs **  about 5% execution time  ** to achieve high-order accuracy.
 ### Motivation 
 ![movie](https://github.com/yongleex/CFPE/blob/main/data/Fig2.png)
 
@@ -26,6 +26,9 @@ conda install -c anaconda pathlib
 ## The experiments
 * [Exp1.ipynb](https://github.com/yongleex/CFPE/blob/main/Exp1_synthesis.ipynb): Test on several synthetic PSP images;
 * [Exp2.ipynb](https://github.com/yongleex/CFPE/blob/main/Exp2_real.ipynb): Test on 4 real PSP cases;
+* [Exp3.ipynb](https://github.com/yongleex/CFPE/blob/main/Exp3_for_review.ipynb): Compare the two interesting cases, with the same gamma distortion ($\gamma=1.3$),
+  1. Our CFPE method with 3-frequency 3-step images (periods T1=33, T2=36, T3=39);
+  2. Standard PE method with 1-frequency 9-step images (T=1920);
 
 
 ### BibTeX
