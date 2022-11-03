@@ -31,9 +31,13 @@ conda install -c anaconda pathlib
   2. Standard PE method with 1-frequency 9-step images (T=1920);
 
 ### More results about the real cases
+- Plate
 ![The results of plate](https://github.com/yongleex/CFPE/blob/main/data/MoreResults/Case1.png)
+- Altman cloak
 ![The results of Altman cloak](https://github.com/yongleex/CFPE/blob/main/data/MoreResults/Case4.png)
+- David
 ![The results of David](https://github.com/yongleex/CFPE/blob/main/data/MoreResults/Case6.png)
+- Pigeon bottle 
 ![The results of Pigeon bottle](https://github.com/yongleex/CFPE/blob/main/data/MoreResults/Case8.png)
 
 ### BibTeX
