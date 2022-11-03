@@ -30,6 +30,11 @@ conda install -c anaconda pathlib
   1. Our CFPE method with 3-frequency 3-step images (periods T1=33, T2=36, T3=39);
   2. Standard PE method with 1-frequency 9-step images (T=1920);
 
+### More results about the real cases
+![The results of plate](https://github.com/yongleex/CFPE/blob/main/data/MoreResults/Case1.png)
+![The results of Altman cloak](https://github.com/yongleex/CFPE/blob/main/data/MoreResults/Case4.png)
+![The results of David](https://github.com/yongleex/CFPE/blob/main/data/MoreResults/Case6.png)
+![The results of Pigeon bottle](https://github.com/yongleex/CFPE/blob/main/data/MoreResults/Case8.png)
 
 ### BibTeX
 
