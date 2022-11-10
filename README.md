@@ -1,11 +1,11 @@
 # Combined-frequency Phase Extraction (CFPE) 
 
 
-[![preprint](https://img.shields.io/static/v1?label=Journal&message=Submitted_OE&color=B31B1B)](https://opg.optica.org/oe/home.cfm)
+[![preprint](https://img.shields.io/static/v1?label=Journal&message=OpticsExpress)](https://opg.optica.org/oe/abstract.cfm?doi=10.1364/OE.473513)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-This repository contains code for the submitted paper *[A fast combined-frequency phase extraction for phase shifting profilometry](https://doi.org/)*. 
+This repository contains code for the paper *[A fast combined-frequency phase extraction for phase shifting profilometry](https://doi.org/10.1364/OE.473513)*. 
 In this work, we formulate the phase extraction problem with high-order harmonic as a maximum likelihood estimation (MLE), and our CFPE is an efficient optimization method by introducing a latent phase map and incorporating the expectation-maximization (EM) framework.
 Compared to the only high-order baseline (LLS), our CFPE method only needs **  about 5% execution time  ** to achieve high-order accuracy.
 ### Motivation 
@@ -45,13 +45,13 @@ conda install -c anaconda pathlib
 ```
 @article{lee2022cfpe,
   author={Lee, Yong and Mao, Ya and Chen, Zuobing},  
-  journal={Submitted to Optics Express},  
-  title={A fast cross-frequency phase extraction for phase shifting profilometry},  
+  journal={Optics Express},  
+  title={A fast combined-frequency phase extraction for phase shifting profilometry},  
   year={2022},
   volume={},
   number={},
-  pages={1-1},
-  doi={}}
+  pages={},
+  doi={https://doi.org/10.1364/OE.473513}}
 ```
 
 ### Questions?
