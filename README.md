@@ -26,7 +26,7 @@ conda install -c anaconda pathlib
 ## The experiments
 * [Exp1.ipynb](https://github.com/yongleex/CFPE/blob/main/Exp1_synthesis.ipynb): Test on several synthetic PSP images;
 * [Exp2.ipynb](https://github.com/yongleex/CFPE/blob/main/Exp2_real.ipynb): Test on 4 real PSP cases;
-* [Exp3.ipynb](https://github.com/yongleex/CFPE/blob/main/Exp3_for_review.ipynb): Compare the two interesting cases, with the same gamma distortion ($\gamma=1.3$),
+* [Exp3.ipynb](https://github.com/yongleex/CFPE/blob/main/Exp3_for_review.ipynb): Compare the two interesting cases, with the same gamma distortion ($\gamma$=1.3),
   1. Our CFPE method with 3-frequency 3-step images (periods T1=33, T2=36, T3=39);
   2. Standard PE method with 1-frequency 9-step images (T=1920);
 
