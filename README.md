@@ -9,7 +9,7 @@ This repository contains code for the paper *[A fast combined-frequency phase ex
 In this work, we formulate the phase extraction problem with high-order harmonic as a maximum likelihood estimation (MLE), and our CFPE is an efficient optimization method by introducing a latent phase map and incorporating the expectation-maximization (EM) framework.
 Compared to the only high-order baseline (LLS), our CFPE method only needs **  about 5% execution time  ** to achieve high-order accuracy.
 ### Motivation 
-![movie](https://github.com/yongleex/CFPE/blob/main/data/Fig2.png)
+![movie](data/Fig2.png)
 
 As a special curve fitting problem, our CFPE utilizes more data points (cross-frequency images) to solve a high-order harmonic model. That says, $\theta^* =\arg\min \Sigma_i\Sigma_j (I_{i,j}-h_{i,j})^2 $. 
 
@@ -32,13 +32,13 @@ conda install -c anaconda pathlib
 
 ### More results about the real cases
 - Plate
-![The results of plate](https://github.com/yongleex/CFPE/blob/main/data/MoreResults/Case1.png)
+![The results of plate](data/MoreResults/Case1.png)
 - Altman cloak
-![The results of Altman cloak](https://github.com/yongleex/CFPE/blob/main/data/MoreResults/Case4.png)
+![The results of Altman cloak](data/MoreResults/Case4.png)
 - David
-![The results of David](https://github.com/yongleex/CFPE/blob/main/data/MoreResults/Case6.png)
+![The results of David](data/MoreResults/Case6.png)
 - Pigeon bottle 
-![The results of Pigeon bottle](https://github.com/yongleex/CFPE/blob/main/data/MoreResults/Case8.png)
+![The results of Pigeon bottle](data/MoreResults/Case8.png)
 
 ### BibTeX
 
@@ -46,11 +46,11 @@ conda install -c anaconda pathlib
 @article{lee2022cfpe,
   author={Lee, Yong and Mao, Ya and Chen, Zuobing},  
   journal={Optics Express},  
-  title={A fast combined-frequency phase extraction for phase shifting profilometry},  
+  title={Fast combined-frequency phase extraction for phase shifting profilometry},  
   year={2022},
-  volume={},
-  number={},
-  pages={},
+  volume={30},
+  number={25},
+  pages={45288--45300},
   doi={https://doi.org/10.1364/OE.473513}}
 ```
 
